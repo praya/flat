@@ -1,0 +1,29 @@
+{
+  "name": "parcel-sandbox",
+  "version": "1.0.0",
+  "description": "Simple Parcel Sandbox",
+  "main": "index.html",
+  "scripts": {
+    "start": "babel-node --exec babel-node src/index.js",
+    "create-data": "babel-node src/data/createDataFile.js"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.1.0",
+    "babel-cli": "^6.26.0",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.7",
+    "nodemon": "^1.18.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "eslint": "^5.7.0",
+    "jest": "^23.6.0"
+  }
+}
